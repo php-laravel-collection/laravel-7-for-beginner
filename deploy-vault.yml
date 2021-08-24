@@ -11,10 +11,10 @@
           DB_NAME: "{{ my_name }}"
           DB_PASSWORD: "{{ my_password }}"
           DB_USER: "{{ my_user }}"
-        image: "65.1.218.108:8082/newuserapp"
-        name: newuserappcontainer
+        image: "65.1.218.108:8082/demolaravel"
+        name: demolaravelcon
         ports:
-          - "8000:8000"
+          - "9000:9000"
         recreate: true
         restart: true
         volumes:
